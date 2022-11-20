@@ -1,9 +1,13 @@
 # Project
 
-For `macOS` program can be callable from the `command line` (from `...\code` directory) as `cat test.json | python3 main.py`. To run a program on any other OS, you should probrably change `python3` to `py` or `python`, based on the version of python you have installed on your system.
+Go to the ``..\code`` directory and run (change ``python3`` or ``py`` according to your python version):
 
-For `windows` you can't use `cat` therefore `adquate command` is `py main.py < test.json` (with correct `python starting command` as mentioned above). 
+**macOS:**
+``cat test.json | python3 main.py``
+or
+**windows:**
+``py main.py < test.json``
 
-**Tests**
-
-Tests are also runable from `...\code` with the command `python3 -m unittest test.py -v` (again you might want to change `python3`, to be able to run tests).
+### Tests
+To run tests go to ``..\code`` directory and run (again you might have to change ``python3``):
+``python3 -m unittest test.py -v``
